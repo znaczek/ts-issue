@@ -8,5 +8,6 @@ it should properly check types of second parameters (it's inferred from the prov
 and return proper data that the provided hook returns.
 
 We have already a half-working solution, but removed it from the example to avoid bias.
+For reference added it separate file `src/half-working.tsx`.
 
 Limitation: `src/graphql.tsx` is generated from gql queries, hence can't be modified.
